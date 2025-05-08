@@ -38,7 +38,7 @@ scms:
       user: "argoyle"
       email: "updatecli@opzkit.io"
       owner: "opzkit"
-      repository: 'terraform-aws-k8s-addons-github-descheduler'
+      repository: 'terraform-aws-k8s-addons-descheduler'
       token: '{{ requiredEnv "UPDATECLI_GITHUB_TOKEN" }}'
       username: 'UpdateCLI'
       branch: "main"
