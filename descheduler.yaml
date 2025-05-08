@@ -126,13 +126,13 @@ data:
       - name: RemovePodsViolatingTopologySpreadConstraint
       - args:
           targetThresholds:
+            cpu: 80
+            memory: 80
+            pods: 100
+          thresholds:
             cpu: 50
             memory: 50
             pods: 50
-          thresholds:
-            cpu: 20
-            memory: 20
-            pods: 20
         name: LowNodeUtilization
       plugins:
         balance:
@@ -177,7 +177,7 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/config: fbc50710e03b9a3fcf891983323dd51ec3df06843fa94b14f96806588021ac4a
+        checksum/config: 5041118ec1a37f7e943c044294f41d2d791a21698a50d33b2aedc4e47b035d96
       labels:
         app.kubernetes.io/instance: descheduler
         app.kubernetes.io/name: descheduler
