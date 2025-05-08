@@ -8,7 +8,7 @@ targets:
   chart:
     name: bump chart version to {{ source "lastRelease" }}
     kind: yaml
-#    scmid: github
+    scmid: github
     sourceid: lastRelease
     spec:
       file: 'descheduler/kustomization.yaml'
@@ -16,7 +16,7 @@ targets:
   kubectl:
     name: run kubectl when chart changed
     kind: shell
-#    scmid: github
+    scmid: github
     dependson:
     - "chart:or"
     dependsonchange: true
@@ -31,29 +31,29 @@ targets:
       environments:
       - name: PATH
 
-#scms:
-#  github:
-#    kind: "github"
-#    spec:
-#      user: "argoyle"
-#      email: "updatecli@opzkit.io"
-#      owner: "opzkit"
-#      repository: 'terraform-aws-k8s-addons-github-runners-controller'
-#      token: '{{ requiredEnv "UPDATECLI_GITHUB_TOKEN" }}'
-#      username: 'UpdateCLI'
-#      branch: "main"
-#      commitusingapi: true
-#
-## Define action configurations if one needs to be created
-#actions:
-#  addon:
-#    kind: "github/pullrequest"
-#    scmid: "github"
-#    spec:
-#      automerge: true
-#      mergemethod: squash
-#      usetitleforautomerge: true
-#      draft: false
-#      labels:
-#      - "dependencies"
-#      title: 'chore(deps): update Github runners controller version to {{ source "lastRelease" }}'
+scms:
+  github:
+    kind: "github"
+    spec:
+      user: "argoyle"
+      email: "updatecli@opzkit.io"
+      owner: "opzkit"
+      repository: 'terraform-aws-k8s-addons-github-descheduler'
+      token: '{{ requiredEnv "UPDATECLI_GITHUB_TOKEN" }}'
+      username: 'UpdateCLI'
+      branch: "main"
+      commitusingapi: true
+
+# Define action configurations if one needs to be created
+actions:
+  addon:
+    kind: "github/pullrequest"
+    scmid: "github"
+    spec:
+      automerge: true
+      mergemethod: squash
+      usetitleforautomerge: true
+      draft: false
+      labels:
+      - "dependencies"
+      title: 'chore(deps): update Kubernetes descheduler version to {{ source "lastRelease" }}'
