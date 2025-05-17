@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.4](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.3...v0.0.4) (2025-05-17)
+
+
+### Bug Fixes
+
+* typo in repostitory name ([#6](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/6)) ([11a15f5](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/11a15f5eca968cb3df72fb951ddb7b3fd1676c8c))
+
+
+### Miscellaneous Chores
+
+* remove unnecessary work flow for release please ([#8](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/8)) ([0524098](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/0524098ba0e749ef82a2df8c20d76fb0f01f9387))
+
 ## [0.0.3](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.2...v0.0.3) (2025-05-08)
 
 
