@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.5](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.4...v0.0.5) (2025-08-09)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 0f859bf ([#18](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/18)) ([3d8ec92](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/3d8ec923f91d03f57bb14432b65d0af62f8df7bf))
+* **deps:** update azure/setup-kubectl digest to 776406b ([#14](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/14)) ([52027c3](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/52027c3070946941757aa7234f0757367f5957c7))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#17](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/17)) ([35ff0dd](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/35ff0dd700836943e23444ebc406ad31154ffe19))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#16](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/16)) ([fe07631](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/fe07631d0f21f5a666d094b513b205417decaad3))
+
 ## [0.0.4](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.3...v0.0.4) (2025-06-19)
 
 
