@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.5](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.4...v0.0.5) (2025-08-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5 ([#22](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/22)) ([f1d746e](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/f1d746eb4a8a8cc90394af0b24d98b20b2b7eb81))
+* **deps:** update actions/create-github-app-token digest to 0f859bf ([#18](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/18)) ([3d8ec92](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/3d8ec923f91d03f57bb14432b65d0af62f8df7bf))
+* **deps:** update actions/create-github-app-token digest to a8d6161 ([#23](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/23)) ([aa5942c](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/aa5942c01c80118862151b694b22f798f640b7e0))
+* **deps:** update azure/setup-kubectl digest to 776406b ([#14](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/14)) ([52027c3](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/52027c3070946941757aa7234f0757367f5957c7))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#17](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/17)) ([35ff0dd](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/35ff0dd700836943e23444ebc406ad31154ffe19))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#16](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/16)) ([fe07631](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/fe07631d0f21f5a666d094b513b205417decaad3))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#19](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/19)) ([58b0b92](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/58b0b927d4e3cacaf0bdeb75a5e1229630fa7059))
+* **deps:** update terraform-linters/setup-tflint action to v5 ([#24](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/24)) ([785e8ba](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/785e8ba9c23ca7fff06622538dc8fa13b5a3c54e))
+
 ## [0.0.4](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.3...v0.0.4) (2025-06-19)
 
 
