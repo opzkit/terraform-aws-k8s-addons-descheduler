@@ -1,5 +1,46 @@
 # Changelog
 
+## [0.0.6](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.5...v0.0.6) (2025-10-31)
+
+
+### Miscellaneous Chores
+
+* **deps:** update googleapis/release-please-action digest to 16a9c90 ([#69](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/69)) ([678ced6](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/678ced62c63b5801ab3911523d790f77b4f1acb4))
+* **deps:** update Kubernetes descheduler version to 0.34.0 ([#72](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/72)) ([a7b8dd0](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/a7b8dd0a59851bbef59fad6a9f7eb73ed26d3583))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.101.1 ([#54](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/54)) ([078c626](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/078c6262ac90340c1b4029cbb2f2cbf3186d1b10))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.102.0 ([#65](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/65)) ([73242da](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/73242da098c51aca76d6c65fe64e7097b5528270))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.103.0 ([#68](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/68)) ([14f7830](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/14f7830c52072283c0b76e57c37ce28dc1872fb8))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.135.6 ([#40](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/40)) ([818cb0e](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/818cb0e5303e8aab585dad8d51b0d08c1194de66))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.136.0 ([#42](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/42)) ([aff1bc4](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/aff1bc400dd50f48acc8f16c117ff9449bc4b366))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.137.0 ([#43](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/43)) ([d3353b8](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/d3353b8ea3430fc0ed1758a2f565e80a017d28f1))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.137.3 ([#44](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/44)) ([1b9a8eb](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/1b9a8eb40e4cb39e8859de7d0322faeca79b4337))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.138.1 ([#46](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/46)) ([15b35a9](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/15b35a9bc2fc157883d8fd2dfc3cd4e4f88aa442))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.138.4 ([#47](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/47)) ([7620002](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/7620002a2c23c317e5e04ff1dbc1b071a9c73f9c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.138.5 ([#48](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/48)) ([2621dd8](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/2621dd89f199b4f5a57fe3d71dbd3fbe53ba883a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.139.1 ([#49](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/49)) ([865cc73](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/865cc73f889dff3cc33350d4f4f3932a69051248))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.141.0 ([#50](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/50)) ([5306935](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/53069358587897c0ab210872da880c9cf482d495))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.142.0 ([#51](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/51)) ([1ec51ed](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/1ec51edfdfc6e81b02c429a36fae3d3c31cac492))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.143.0 ([#52](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/52)) ([16c9dc6](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/16c9dc693202008f7a292aec4b5caf16ed00ba95))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.143.1 ([#53](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/53)) ([0637c06](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/0637c06e1851dc17529f9fbf70c7f93b61cd820d))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.143.2 ([#55](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/55)) ([8fcf9b9](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/8fcf9b91fe59d67b77322a68e1b80d9e638f42da))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.0 ([#56](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/56)) ([781daa5](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/781daa5015f22e57c6fa8a8fdb1bfe75c346c319))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.1 ([#57](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/57)) ([cf224a4](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/cf224a4b722cc13e9899ba23335b45196ec511c1))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.3 ([#58](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/58)) ([234ae3a](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/234ae3ac0e6a5e238105180ef410d2e72824cc34))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.4 ([#59](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/59)) ([b0862ef](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/b0862ef90d91f31a93837f0439f619416175b50f))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.145.1 ([#60](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/60)) ([2e93a32](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/2e93a328b31768f76e3662fcaa132aa01c771a27))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.145.3 ([#61](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/61)) ([ce53f01](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/ce53f01ba1967067893768cb960b4432be384f1a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.146.0 ([#62](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/62)) ([dee9b4c](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/dee9b4c4618482a30b84da955458d1b7692e5a0a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.148.1 ([#64](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/64)) ([178c51f](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/178c51f8b38ac90e47ae56b4597af9ec48463b1d))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.148.6 ([#66](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/66)) ([e571b55](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/e571b55ba5a37e55703e8ab436303f28b71171b8))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.0 ([#45](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/45)) ([ae26a64](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/ae26a647be15727b5eec51a47f1ec3dadbf757a1))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.1 ([#70](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/70)) ([44708fd](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/44708fdf7f5fbac01457adecb8bd062a64b83504))
+* simplify renovate configuration ([#67](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/67)) ([c73f2c4](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/c73f2c498c5e6bcb36c860c6bac4342183b712bd))
+
+
+### Continuous Integration
+
+* add package rule for daily pre-commit hooks updates ([#63](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/63)) ([c97ea01](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/c97ea010323a3ae4f4f4a196aef44c16ea9d115e))
+
 ## [0.0.5](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.4...v0.0.5) (2025-10-06)
 
 
