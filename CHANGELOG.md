@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.7](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.6...v0.0.7) (2025-11-01)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.168.0 ([#73](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/73)) ([5e097c8](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/5e097c8199dbbead2b9560d27969f7b827ea8108))
+
 ## [0.0.6](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.5...v0.0.6) (2025-10-31)
 
 
