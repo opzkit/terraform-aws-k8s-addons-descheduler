@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.8](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.7...v0.0.8) (2026-02-20)
+
+
+### Miscellaneous Chores
+
+* **deps:** update helm release descheduler to v0.35.0 ([#110](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/110)) ([45e5d25](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/45e5d2564ac58e262fe5b857885e411d94c320bf))
+* **deps:** update Kubernetes descheduler version to 0.35.0 ([#109](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/109)) ([14d265c](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/14d265c0dbac7e017142f7e97f84aa94e1f63e12))
+
 ## [0.0.7](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.6...v0.0.7) (2026-02-17)
 
 
