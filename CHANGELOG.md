@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.9](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.8...v0.0.9) (2026-02-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update hashicorp/setup-terraform action to v4 ([#114](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/114)) ([050d1cc](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/050d1cca51305e658a04595904a24098238a6847))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#112](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/112)) ([427f2b3](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/427f2b3c5936e30d4434914e2b6450316f3415bc))
+
 ## [0.0.8](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.7...v0.0.8) (2026-02-20)
 
 
