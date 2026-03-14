@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.10](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.9...v0.0.10) (2026-03-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token action to v3 ([#121](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/121)) ([eff3aee](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/eff3aee701219c54be7dfdd9321ed4c044c7b09f))
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#119](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/119)) ([dc41375](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/dc4137550b6080059ccc7a47d897fb54f6eb8766))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.2 ([#120](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/120)) ([3115cf8](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/3115cf853cdfacf6014131f11dd1def6cd761eaa))
+
 ## [0.0.9](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.8...v0.0.9) (2026-03-09)
 
 
