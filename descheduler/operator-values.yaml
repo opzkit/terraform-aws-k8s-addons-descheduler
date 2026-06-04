@@ -1,5 +1,15 @@
 kind: Deployment
 
+# Chart default reserves 500m CPU; observed steady-state usage is ~1m.
+# Reserve a small request and keep a generous limit for periodic eviction sweeps.
+resources:
+  requests:
+    cpu: 50m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 256Mi
+
 deschedulerPolicy:
   # nodeSelector: "key1=value1,key2=value2"
   # maxNoOfPodsToEvictPerNode: 10
