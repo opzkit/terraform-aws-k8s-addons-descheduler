@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.0.11](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.10...v0.0.11) (2026-06-04)
+
+
+### Performance Improvements
+
+* right-size descheduler CPU request from 500m to 50m ([#144](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/144)) ([4fd2c6b](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/4fd2c6b3a7b87eaabb7f6d6a8b55f6528af6953a))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout digest to df4cb1c ([#145](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/145)) ([d9772f3](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/d9772f318be67b07bb8f3db636b6576d1a30d6eb))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.106.0 ([#142](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/142)) ([03247cc](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/03247cc3278aa83761c47976d2c48b3194c972fb))
+
 ## [0.0.10](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.9...v0.0.10) (2026-05-21)
 
 
