@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.13](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.12...v0.0.13) (2026-10-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** update azure/setup-kubectl digest to bda439f ([#180](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/issues/180)) ([e9e4a86](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/commit/e9e4a863cad984c90a261cc5161a74b6826d5bfb))
+
 ## [0.0.12](https://github.com/opzkit/terraform-aws-k8s-addons-descheduler/compare/v0.0.11...v0.0.12) (2026-10-05)
 
 
